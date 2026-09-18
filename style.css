@@ -1,0 +1,133 @@
+/* https://in.pinterest.com/pin/454441418676579202/ */
+@font-face {
+  font-family: norse;
+  src: url(./fonts/Norsebold.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color:#F9FAFB ;
+    color:rgb(33, 33, 33);
+}
+.image{
+  flex-shrink: 0;
+  border: none;
+  position: relative;
+}
+img[src="background.jpeg"] {
+  height: 100vh;
+  border:none;
+}
+img[src="odin-lined.png"]{
+  height: 15vh;
+  display: inline;
+}
+.odin>div{
+  display: inline-block;
+  text-align: center;
+  color: #F9FAFB;
+  font-size: 7rem;
+  margin-left: 0.2em;
+  font-family: norse,Arial;
+}
+.odin{
+  position:absolute;
+  bottom: 100px;
+
+  background-color: rgb(17, 17, 17,0.8);
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+}
+.footer{
+  position: absolute;
+  bottom:0;
+  font-size: 1rem;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 1em;
+}
+.right-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:1.6em;
+
+}
+.form-content{
+  display: flex;
+  gap:7em;
+  justify-content: flex-start;
+  width: 70%;
+}
+.form-row{
+  margin: 1em 0;
+}
+label{
+  font-size: 0.9rem;
+  color:rgb(61, 61, 52);
+  letter-spacing: 0.1em;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+  display: block; 
+  border:0.1em solid #E5E7EB;
+  width: 100%;
+  padding: 0.4em 1em;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  min-width: 25ch;
+}
+.header > p{
+  font-size:1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+.header,form>button,.login{
+  margin:0 5em;
+}
+form > div{
+  background-color:#FFFFFF;
+  padding: 1em 5em;
+  box-shadow: 0 0.2em 5px  rgb(117, 113, 113,0.5) ;
+}
+form>button{
+  margin: 2rem 5rem;
+  margin-bottom: 1rem;
+  background-color: #ef9f44;
+  padding:0.8em 3em;
+  color:#F9FAFB;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 0.2em 5px  rgb(117, 113, 113,0.5);
+}
+.half{
+ width: 60%;
+}
+form,.header{
+  min-width: 45ch;
+}
+input[type="password"]:user-invalid{
+  border:0.1em solid rgb(199, 35, 35);
+}
+input:focus{
+  border:0.1em solid rgb(35, 150, 199);
+  box-shadow: 0.1em 0.1em 5px rgb(117, 113, 113,0.5);
+}
+.login{
+  font-weight: 500;
+}
+a{
+  color:#ef9f44;
+}
+button:hover{
+  background-color: #d19755;
+}
+button:active{
+  background-color: #7b5220;
+}

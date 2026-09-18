@@ -8,17 +8,25 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <div>
+    <div class="image">
         <img src="background.jpeg" alt="Image of ichigo"/>
+        <div class="odin">
+            <img src="odin-lined.png" alt="pic of odin"/>
+            <div>ODIN</div>
+        </div>
+        <div class="footer">“Character and artwork © Tite Kubo/Shueisha, TV Tokyo, Pierrot. Used for educational/non-commercial practice.”</div>
     </div>
-    <div>
+    <div class="right-content">
+            <div class="header">
         <p>This is not a real online service! Still if there was an anime related event I wanted to start, I would maybe keep this as the sign up form.</p>
         <p>You <em>know</em> you want to.</p>
     </div>
         
     <form action="" method="post">
+        <div>
         <h2>YOKOSO WATASHI NO SOUL SOCIETY</h2>
-        <div class="half">
+        <div class="form-content">
+            <div class="half">
             <div class="form-row">
                 <label for="first-name">FIRST NAME</label>
                 <input id="first-name" name="first-name" type="text"/>
@@ -28,11 +36,31 @@
                 <input id="email" name="user-email" type="email"/>
             </div>
             <div class="form-row">
-                <label for="first-name">First Name</label>
-                <input id="first-name" name="first-name" type="text"/>
+                <label for="pswd">PASSWORD</label>
+                <input id="pswd" name="user-pswd" type="password" required/>
+            </div>
+        </div class="half">
+            <div class="half">
+            <div class="form-row">
+                <label for="last-name">LAST NAME</label>
+                <input id="last-name" name="last-name" type="text"/>
+            </div>
+            <div class="form-row">
+                <label for="ph">PHONE NUMBER</label>
+                <input id="ph" name="user-ph" type="tel"/>
+            </div>
+            <div class="form-row">
+                <label for="cnf-pswd">CONFIRM PASSWORD</label>
+                <input id="cnf-pswd" name="usr-cnf" type="password" required />
             </div>
         </div>
-            
+        </div>
+        </div>
+        <button type="sumbit">Create Account</button>
     </form>
+    <p class="login">Already have an account? <a href="">Log in.</a>
+    </p>
+    </div>
+    
 </body>
 </html>
