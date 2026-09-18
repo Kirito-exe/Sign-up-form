@@ -1,7 +1,7 @@
 # Sign-up-form
-Sign up project for odin project
+Sign up project for odin project. Made in 3 hrs.
 
 Credits:
 Character and artwork © Tite Kubo/Shueisha, TV Tokyo, Pierrot. Used for educational/non-commercial practice.
 Logo:The odin project Used for educational/non commercial practice
-Norse font from: https://www.joelcarrouche.com/fonts/norse Credits to him
+Norse font from: https://www.joelcarrouche.com/fonts/norse Credits to him. 
